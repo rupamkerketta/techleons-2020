@@ -6,16 +6,19 @@
 
 body {
     overflow-x: hidden;
-    background-color: black;
-}
-
-.container {
-    z-index: 2;
 }
 
 @media only screen and (max-width: 1000px) {
+    nav{
+        z-index: 1;
+    }
+    
+    burger{
+        position: fixed;
+    }
+    
     nav .nav-links {
-        position: absolute;
+        position: fixed;
         top: 10vh;
         width: 50%;
         right: 0;
@@ -28,13 +31,26 @@ body {
         background-color: transparent;
         transform: translateX(100%);
         transition: all .7s ease;
-        background-color: rgba(0, 0, 0, 1);
+        background-color: rgb(255, 255, 255);
+    }
+
+    .navigation a{
+        color: rgb(17, 17, 17);
+    }
+
+    .footer-wrapper{
+        flex-direction: column;
+        height: 180px;
     }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1920px) {
     .burger {
         display: none;
+    }
+
+    nav{
+        z-index: 2;
     }
 
     nav a {
@@ -54,10 +70,8 @@ nav {
     background-color: rgba(0, 0, 0, 0);
     align-items: center;
     min-height: 10vh;
-    /* background-color: #042a38; */
-    /* position: fixed; */
     width: 100%;
-    z-index: 10;
+    z-index: 2;
 }
 
 nav .burger {
@@ -144,13 +158,14 @@ nav .slide {
 footer {
     font-family: "Muli";
     font-size: 0.99em;
-    background-color: rgb(15, 15, 15);
+    margin-top: 30px;
+    background-color: rgb(14, 14, 14);
 }
 
 .footer-wrapper{
     display: flex;
     width: 100%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     justify-content: space-around;
     align-items: center;
 }
@@ -170,6 +185,7 @@ footer ul {
 
 footer img {
     height: 40px;
+    margin-top: 20px;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -181,14 +197,11 @@ footer img {
     align-items: center;
 }
 
-.social-media {
-    /* border: 1px solid white; */
-}
-
 footer .cpy {
     color: rgb(211, 206, 206);
     /* color: white; */
     margin: auto;
     width: 400px;
     margin-top: 50px;
+    padding-bottom: 50px;
 }
