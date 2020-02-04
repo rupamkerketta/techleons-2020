@@ -52,12 +52,14 @@
     text-align: center;
     width: 280px;
     height: 350px;
+    margin-top: 100px;
     border-radius: 5px;
     background-color: black;
-    box-shadow: 0 27px 17px -17px rgba(65, 65, 65, 0.774);
+    box-shadow: 0 27px 17px -17px rgba(56, 56, 56, 0.308);
     margin-top: 50px;
     transition: all .4s ease;
     color: rgb(216, 208, 208);
+    position: relative;
 }
 
 .cards{
@@ -108,4 +110,35 @@
 
 #logo-img{
     animation: rotation 5s infinite linear;
+}
+
+.card img{
+    width: 140px;
+    position: absolute;
+    left: -40px;
+    bottom: -30px;
+}
+
+.card:nth-child(2) img{
+    width: 180px;
+    left: -70px;
+    bottom: -30px;
+}
+
+.card:nth-child(3) img {
+    width: 175px;
+    left: -70px;
+    bottom: -40px;
+}
+
+.card:nth-child(4) img {
+    width: 175px;
+    left: -70px;
+    bottom: -40px;
+}
+
+.card:nth-child(6) img {
+    width: 175px;
+    left: -70px;
+    bottom: -40px;
 }
