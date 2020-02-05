@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Mario";
+    src: url("../fonts/mario.ttf");
+}
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -31,7 +36,7 @@
 
 #logo-img{
     height: 300px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .events h1{
@@ -119,6 +124,10 @@
     position: absolute;
     left: -40px;
     bottom: -30px;
+}
+
+.card:nth-child(1) .event{
+
 }
 
 .card:nth-child(2) img{
