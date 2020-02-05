@@ -3,6 +3,31 @@
     src: url("../fonts/mario.ttf");
 }
 
+@font-face {
+    font-family: "Contra";
+    src: url("../fonts/contra.ttf");
+}
+
+@font-face {
+    font-family: "Pacman";
+    src: url("../fonts/pacman.ttf");
+}
+
+@font-face {
+    font-family: "Roadrash";
+    src: url("../fonts/roadrash.otf");
+}
+
+@font-face {
+    font-family: "Sonic";
+    src: url("../fonts/sonic.TTF");
+}
+
+@font-face {
+    font-family: "Tekken";
+    src: url("../fonts/tekken.ttf");
+}
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -108,10 +133,12 @@
     from {
         transform: rotate(1);
         opacity: 1;
+        z-index: -1;
     }
     to{
         transform: scale(2.2);
         opacity: 0;
+        z-index: -1;
     }
 }
 
@@ -126,8 +153,25 @@
     bottom: -30px;
 }
 
-.card:nth-child(1) .event{
-
+.card:nth-child(1) .event-name{
+    font-family: "Mario";
+}
+.card:nth-child(2) .event-name{
+    font-family: "Contra";
+}
+.card:nth-child(3) .event-name{
+    font-family: "Pacman";
+}
+.card:nth-child(4) .event-name{
+    font-family: "Roadrash";
+    font-style: italic;
+}
+.card:nth-child(5) .event-name{
+    font-family: "Sonic";
+}
+.card:nth-child(6) .event-name{
+    font-family: "Tekken";
+    font-size: 1.4em;
 }
 
 .card:nth-child(2) img{
@@ -184,8 +228,4 @@
 }
 .card:hover h3{
     color: white;
-}
-
-#nav-logo{
-    width: 140px;
 }

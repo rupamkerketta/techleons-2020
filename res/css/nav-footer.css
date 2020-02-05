@@ -205,3 +205,8 @@ footer .cpy {
     margin-top: 50px;
     padding-bottom: 50px;
 }
+
+#nav-logo {
+    width: 140px;
+    margin-top: -10px;
+}
