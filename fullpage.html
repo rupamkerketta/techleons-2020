@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="fullpage.css">
+</head>
+<body style="text-align: center; margin: 0px;">
+    <div id="maindiv">
+        <div id="page1" class="div">
+                PAGE 1
+        <a href="#page2" id="link1"><button>thisdown</button></a>
+        </div>
+
+        <div id="page2" class="div" style="background-color: green;">
+            <a href="#page1" id="link2"><button>thisup</button></a>
+                PAGE 2
+            <a href="#page3" id="link3"><button>thisdown</button></a>
+        </div>
+
+        <div id="page3" class="div" style="background-color: blue;">
+                PAGE 3
+            <a href="#page2"><button>thisup</button></a>
+        </div>
+    </div>
+    <script>
+        window.onscroll = function(){pagefunction()}
+        // var pg1 = document.getElementById("page1");
+        // pg1.addEventListener("scroll", pagefunction);
+        function pagefunction(){
+            var top = document.getElementById("page2");
+            top.scrollIntoView({behavior:"smooth"});
+        }
+        if (document.body.scrollTop > "10px" || document.documentElement.scrollTop > "10px") {
+            pagefunction;
+        //      window.location = document.getElementById('link1').href;
+        //      document.body.scrollTop = "00px";
+        //      document.documentElement.scrollTop = "00px";
+        }
+        // $(document).ready(function pagefunction(){
+        //     // Handler for .ready() called.
+        //     $('html, body').animate({
+        //         scrollTop: $('#page2').offset().top
+        //     }, 'slow');
+        // });
+    </script>
+</body>
+</html>
