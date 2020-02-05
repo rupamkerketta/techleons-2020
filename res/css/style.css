@@ -60,6 +60,7 @@
     transition: all .4s ease;
     color: rgb(216, 208, 208);
     position: relative;
+    cursor: pointer;
 }
 
 .cards{
@@ -86,7 +87,6 @@
 
 .card:hover{
     transform: scale(1.05);
-    background-color:rgb(226, 222, 222);
     box-shadow: 0 5px 7px rgb(0, 0, 0);
     font-weight: bolder;
 }
@@ -141,4 +141,38 @@
     width: 175px;
     left: -70px;
     bottom: -40px;
+}
+
+/* Card Color */
+
+.card:nth-child(1):hover{
+    background-image: linear-gradient(to bottom right, #052F97, #D5090D);
+}
+
+.card:nth-child(2):hover {
+    background-image: linear-gradient(to bottom right, rgb(221, 162, 74), #FA260A);
+}
+
+.card:nth-child(3):hover {
+    background-image: linear-gradient(to bottom right, #00204d, #7AC1F3);
+}
+.card:nth-child(4):hover{
+    background-image: linear-gradient(to bottom right, #C92C0D, #861D06);
+}
+
+.card:nth-child(5):hover{
+    background-image: linear-gradient(to bottom right, #1F774A, #3A46FF);
+}
+
+.card:nth-child(6):hover{
+    background-image: linear-gradient(to bottom right, #71433C, #7C1807);
+}
+
+
+
+.card:hover p{
+    color: white;
+}
+.card:hover h3{
+    color: white;
 }
