@@ -52,13 +52,13 @@
                         <img src="./res/images/logos/mario.png" alt="Mario">
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" onclick="window.location.href = 'http://127.0.0.1:5500/teams/contra/';">
                     <div class="glass"></div>
                     <h3 class="event-name">Contra</h3>
                     <p class="event-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, ab!.</p>
                     <img src="./res/images/logos/contra.png" alt="Mario">
                 </div>
-                <div class="card">
+                <div class="card" onclick="window.location.href = 'http://127.0.0.1:5500/teams/pacman/';">
                     <div class="glass"></div>
                     <h3 class="event-name">Pacman</h3>
                     <p class="event-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit dolorum, autem hic ad qui
@@ -68,7 +68,7 @@
                         <img src="./res/images/logos/pacman.png" alt="Mario">
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" onclick="window.location.href = 'http://127.0.0.1:5500/teams/roadrash/';">
                     <div class="glass"></div>
                     <h3 class="event-name">Roadrash</h3>
                     <p class="event-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolores eos blanditiis odit hic, recusandae eligendi dignissimos?</p>
@@ -76,7 +76,7 @@
                         <img src="./res/images/logos/roadrash.png" alt="Mario">
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" onclick="window.location.href = 'http://127.0.0.1:5500/teams/sonic/';">
                     <div class="glass"></div>
                     <h3 class="event-name">Sonic</h3>
                     <p class="event-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magni ut maxime laboriosam natus.</p>
@@ -84,7 +84,7 @@
                         <img src="./res/images/logos/sonic.png" alt="Mario">
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" onclick="window.location.href = 'http://127.0.0.1:5500/teams/tekken/';">
                     <div class="glass"></div>
                     <h3 class="event-name">TEKKEN</h3>
                     <p class="event-details">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
@@ -119,6 +119,34 @@
 
     </div>
     <script src="./res/js/app.js"></script>
+
+    <script>
+        const mario = document.querySelector('.card:nth-child(1)');
+        const contra = document.querySelector('.card:nth-child(2)');
+        const pacman = document.querySelector('.card:nth-child(3)');
+        const roadrash = document.querySelector('.card:nth-child(4)');
+        const sonic = document.querySelector('.card:nth-child(5)');
+        const tekken = document.querySelector('.card:nth-child(6)');
+
+        mario.addEventListener('click', () => {
+            window.location.href = 'http://127.0.0.1:5500/teams/mario/';
+        });
+        // .addEventListener('click', () => {
+        //     window.location.href = 'http://127.0.0.1:5500/teams/contra/';
+        // });
+        // mario.addEventListener('click', () => {
+        //     window.location.href = 'http://127.0.0.1:5500/teams/pacman/';
+        // });
+        // mario.addEventListener('click', () => {
+        //     window.location.href = 'http://127.0.0.1:5500/teams/roadrash/';
+        // });
+        // mario.addEventListener('click', () => {
+        //     window.location.href = 'http://127.0.0.1:5500/teams/sonic/';
+        // });
+        // mario.addEventListener('click', () => {
+        //     window.location.href = 'http://127.0.0.1:5500/teams/tekken/';
+        // });
+    </script>
     
 </body>
 </html>
