@@ -8,20 +8,25 @@ body{
     font-size: 34px;
     font-style: italic;
     letter-spacing:-1px;
-    width:12000px;
+    width:12300px;
     position:absolute;
     top:0px;
     left:0px;
     bottom:0px;
 }
+
 .section{
     margin:0px;
     bottom:0px;
-    width:4000px;
+    width:4100px;
     float:left;
     height:100%;
     text-shadow:1px 1px 2px #f0f0f0;
 }
+
+/* .marg{
+    right: -100px;
+} */
 .section h2{
     margin:50px 0px 30px 50px;
 }
@@ -31,7 +36,6 @@ body{
 }
 .black{
     color:#fff;
-   
     background:#000 url(../images/black.jpg) no-repeat top right;
 }
 .white{
@@ -44,9 +48,10 @@ body{
     margin:20px 0px 0px 550px;
 }
 .black ul li{
-    float:left;
+    float:right;
     padding:5px;
-    margin:5px;
+    margin: 5px;
+    margin-top:300px;
     color:#aaa;
 }
 .black ul li a{
