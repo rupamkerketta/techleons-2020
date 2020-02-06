@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+.div1{
+    background-color: rgb(255,0,0);
+    min-height: 100vh;
+    min-width: 100%;
+    font-size: 50px;
+    display: none;
+}
