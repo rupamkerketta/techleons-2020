@@ -7,23 +7,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="fullpage.css">
 </head>
-<body style="text-align: center; margin: 0px;">
+<body>
     <div id="maindiv">
         <div id="page1" class="div1" style="display: block;">
-                PAGE 1
-        <a href="#page2" onclick="pagefunction('page2')" onscroll="pagefunction1('page1')" id="link1"><button>thisdown</button></a>
+            <h1>PAGE 1</h1>
+            <a href="#page2" onclick="pagefunction('page2')" onscroll="pagefunction1('page1')" id="link1"><button>thisdown</button></a>
         </div>
 
         <div id="page2" class="div1" style="background-color: green;">
             <a href="#page1" onclick="pagefunction('page1')" id="link2"><button>thisup</button></a>
-                PAGE 2
+            <h1>PAGE 2</h1>
             <a href="#page3" onclick="pagefunction('page3')" id="link3"><button>thisdown</button></a>
         </div>
 
         <div id="page3" onclick="pagefunction('page2')" class="div1" style="background-color: blue;">
-                PAGE 3
             <a href="#page2"><button>thisup</button></a>
+            <h1>PAGE 3</h1>
+            <a href="#page4" onclick="pagefunction('page4')" id="link4"><button>thisdown</button></a>
         </div>
+
+
     </div>
     <script>
         window.onscroll = function(){pagefunction1(id), pagehide(id)}
