@@ -7,25 +7,41 @@
     <title>Document</title>
     <link rel="stylesheet" href="fullpage.css">
 </head>
-<body>
+<body style="font-family:Arial, Helvetica, sans-serif">
     <div id="maindiv">
         <div id="page1" class="div1" style="display: block;">
             <h1>PAGE 1</h1>
             <a href="#page2" onclick="pagefunction('page2')" onscroll="pagefunction1('page1')" id="link1"><button>thisdown</button></a>
         </div>
 
-        <div id="page2" class="div1" style="background-color: green;">
+        <div id="page2" class="div1" style="background-color: rgb(0,200,0);;">
             <a href="#page1" onclick="pagefunction('page1')" id="link2"><button>thisup</button></a>
             <h1>PAGE 2</h1>
             <a href="#page3" onclick="pagefunction('page3')" id="link3"><button>thisdown</button></a>
         </div>
 
-        <div id="page3" onclick="pagefunction('page2')" class="div1" style="background-color: blue;">
+        <div id="page3" class="div1" style="background-color: rgb(0,0,200);">
             <a href="#page2"><button>thisup</button></a>
             <h1>PAGE 3</h1>
             <a href="#page4" onclick="pagefunction('page4')" id="link4"><button>thisdown</button></a>
         </div>
 
+        <div id="page4" class="div1" style="background-color: rgb(255,255,0);">
+            <a href="#page3"><button>thisup</button></a>
+            <h1>PAGE 4</h1>
+            <a href="#page5" onclick="pagefunction('page5')" id="link4"><button>thisdown</button></a>
+        </div>
+
+        <div id="page5" class="div1" style="background-color: rgb(0,255,255);">
+            <a href="#page4"><button>thisup</button></a>
+            <h1>PAGE 5</h1>
+            <a href="#page6" onclick="pagefunction('page6')" id="link4"><button>thisdown</button></a>
+        </div>
+
+        <div id="page6" class="div1" style="background-color: rgb(255,0,255);">
+            <a href="#page5"><button>thisup</button></a>
+            <h1>PAGE 6</h1>
+        </div>
 
     </div>
     <script>
