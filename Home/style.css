@@ -1,31 +1,31 @@
 @font-face {
     font-family: "Mario";
-    src: url("../fonts/mario.ttf");
+    src: url("../Resources/fonts/mario.ttf");
 }
 
 @font-face {
     font-family: "Contra";
-    src: url("../fonts/contra.ttf");
+    src: url("../Resources/fonts/contra.ttf");
 }
 
 @font-face {
     font-family: "Pacman";
-    src: url("../fonts/pacman.ttf");
+    src: url("../Resources/fonts/pacman.ttf");
 }
 
 @font-face {
     font-family: "Roadrash";
-    src: url("../fonts/roadrash.otf");
+    src: url("../Resources/fonts/roadrash.otf");
 }
 
 @font-face {
     font-family: "Sonic";
-    src: url("../fonts/sonic.TTF");
+    src: url("../Resources/fonts/sonic.TTF");
 }
 
 @font-face {
     font-family: "Tekken";
-    src: url("../fonts/tekken.ttf");
+    src: url("../Resources/fonts/tekken.ttf");
 }
 
 #myVideo {
