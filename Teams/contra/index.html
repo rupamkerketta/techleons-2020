@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Team Mario</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Muli:300&display=swap');
+
+        @font-face {
+            font-family: "Contra";
+            src: url("../../Resources/fonts/contra.ttf");
+        }
+
+        .team-logo {
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .team-logo h2 {
+            font-family: "Contra";
+            font-size: 1.9em;
+            color: white;
+            z-index: 1;
+        }
+
+        .team-logo img {
+            width: 150px;
+            z-index: 1;
+        }
+
+        .team-banner {
+            width: 300px;
+            margin: auto;
+            /* border: 1px solid white; */
+        }
+
+        .card-content h3 {
+            font-family: "Muli";
+            font-weight: 300;
+            color: white;
+            /* border: 1px solid white; */
+            display: flex;
+            width: 85%;
+            margin: auto;
+            justify-content: space-between;
+        }
+
+        .team-member h3:nth-child(1),
+        h3:nth-child(2) {
+            font-weight: 100;
+        }
+
+
+        .back-btn {
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            padding: 10px;
+            position: fixed;
+            border-radius: 4px;
+            font-family: 'Muli';
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+
+        .card .card-head h3 {
+            color: white;
+            font-size: 1.7em;
+            border-bottom: 1px solid white;
+            width: 80%;
+            margin: auto;
+            margin-top: 7px;
+            font-family: "Contra";
+            font-weight: 300;
+            padding-top: 17px;
+            padding-bottom: 14px;
+        }
+
+        .card-content {
+            margin-top: 17px;
+            padding-bottom: 20px;
+        }
+
+        .card-content h3 {
+            margin-top: 3px;
+        }
+
+        .card {
+            font-family: "Muli";
+            text-align: center;
+            width: 480px;
+            /* height: 350px; */
+            margin-top: 100px;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.692);
+            box-shadow: 0 27px 17px -17px rgba(56, 56, 56, 0.308);
+            margin-top: 50px;
+            transition: all .4s ease;
+            color: rgb(216, 208, 208);
+            position: relative;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 5px 7px rgb(0, 0, 0);
+            font-weight: bolder;
+        }
+
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100vh;
+            z-index: -1;
+        }
+
+        .glass {
+            background-color: rgba(10, 10, 10, 0.603);
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+
+        .team-members-cards {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="../../Resources/videos/black-bg-1.mp4" type="video/mp4">
+    </video>
+
+    <div class="glass">
+    </div>
+
+    <a class="back-btn" href="../../index.html">Back</a>
+
+    <div class="container">
+        <div class="team-banner">
+            <div class="team-logo">
+                <img src="../../Resources/images/logos/contra.png">
+                <h2>Contra</h2>
+            </div>
+        </div>
+        <div class="team-members-cards">
+
+            <div class="card">
+                <div class="card-head">
+                    <h3>2BCA - A</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>2BCA - B</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>2CME</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>2CMS</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>4BCA - A</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>4BCA - B</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>4CME</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>4CMS</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>6BCA - A</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>6BCA - B</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>6CME</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <h3>6CMS</h3>
+                </div>
+                <div class="card-content">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
