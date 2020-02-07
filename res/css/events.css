@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(7, 7, 7);
+}
+
+.event-cards{
+    margin-top: 40px;
+    /* border: 1px solid white; */
+    padding: 5px;
+    width: 95%;
+    margin: auto;
+}
+
+.event-rules{
+    opacity: 0;
+    transition: all .4s ease;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    z-index: 1;
+    width: 300px;
+}
+
+.event-info{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.event-rules h3{
+    font-weight: 100;
+    display: block;
+}
+
+.event-card{
+    font-family: 'Muli';
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    transition: all .4s ease;
+}
+
+.event-card:hover .event-rules{
+    opacity: 1;
+}
+
+
+.event-icon img{
+    width: 300px;
+}
