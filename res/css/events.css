@@ -53,3 +53,36 @@ body{
 .event-icon img{
     width: 300px;
 }
+
+.flip-card {
+	background-color: transparent;
+	width: 592px;
+	height: 328px;
+}
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	backface-visibility: hidden;
+}
+.flip-card-front {
+}
+
+.flip-card-back{
+	background-color: #3aafa9;
+	color: rgb(255,255,255);
+	transform: rotateY(180deg);
+	padding: 5vw;
+}
