@@ -19,6 +19,9 @@ body{
     background-color: #333333;
     box-shadow: 0px 4px 4px rgba(90, 87, 87, 0.2);
     padding: 15px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
 }
 
 
@@ -43,7 +46,7 @@ body{
 }
 
 .committee h1{
-    padding-top:50px;
+    padding-top:100px;
     text-align: center;
 }
 
