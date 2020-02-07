@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -8,13 +10,73 @@ body{
     margin: 0px;
 }
 
-.div1{
-    background-color: rgb(200,0,0);
-    min-height: 100vh;
+#container {
+    overflow-x: hidden;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #333333;
+    box-shadow: 0px 4px 4px rgba(90, 87, 87, 0.2);
+    padding: 15px;
+}
+
+
+.nav-a {
+    color: #FFF8DC;
+    float: left;
+    text-decoration: none;
+    font: 28px "Raleway";
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.committee{
+    background-color: rgba(134, 131, 131, 0.5);
+    min-height: 91.5vh;
     min-width: 100%;
-    font-size: 50px;
+    font-size: 30px;
     display: none;
 }
-h1{
-    margin:0px;
+
+.committee h1{
+    padding-top:50px;
+    text-align: center;
+}
+
+/* border-animation */
+.nav-a:before,
+.nav-a:after {
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: '';
+    background: #FFF8DC;
+    transition: all 0.4s;
+}
+
+.nav-a:before {
+    left: 0px;
+    top: 0px;
+}
+
+.nav-a:after {
+    right: 0px;
+    bottom: 0px;
+}
+
+.nav-a:hover:before,
+.nav-a:hover:after {
+    opacity: 1;
+    width: 100%;
+}
+
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
 }

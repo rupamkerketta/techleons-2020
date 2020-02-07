@@ -4,62 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Techleons | About Us</title>
     <link rel="stylesheet" href="fullpage.css">
 </head>
-<body style="font-family:Arial, Helvetica, sans-serif">
-    <div id="maindiv">
-        <div id="page1" class="div1" style="display: block;">
-            <h1>PAGE 1</h1>
-            <a href="#page2" onclick="pagefunction('page2')" onscroll="pagefunction1('page1')" id="link1"><button>thisdown</button></a>
+<body>
+    <div id="container">
+        <div class="nav nav-border animate">
+            <a href="#Core-Committee" class="nav-a" onclick="pageFunction('Core-Committee')" onscroll="pageScrollFunction('Core-Committee')">Core-Committee</a>
+            <a href="#Hospitality" class="nav-a" onclick="pageFunction('Hospitality')" onscroll="pageScrollFunction('Hospitality')">Hospitality</a>
+            <a href="#Editorial-Board" class="nav-a" onclick="pageFunction('Editorial-Board')" onscroll="pageScrollFunction('Editorial-Board')">Editorial-Board</a>
+            <a href="#Media" class="nav-a" onclick="pageFunction('Media')" onscroll="pageScrollFunction('Media')">Media</a>
+            <a href="#WebDev" class="nav-a" onclick="pageFunction('WebDev')" onscroll="pageScrollFunction('WebDev')">WebDev</a>
+        </div>
+        <div id="Core-Committee" class="committee" style="display: block;">
+            <h1>Core-Committee</h1>
+        </div>
+        
+        <div id="Hospitality" class="committee">
+            <h1>Hospitality</h1>
         </div>
 
-        <div id="page2" class="div1" style="background-color: rgb(0,200,0);;">
-            <a href="#page1" onclick="pagefunction('page1')" id="link2"><button>thisup</button></a>
-            <h1>PAGE 2</h1>
-            <a href="#page3" onclick="pagefunction('page3')" id="link3"><button>thisdown</button></a>
+        <div id="Editorial-Board" class="committee">
+            <h1>Editorial-Board</h1>
         </div>
-
-        <div id="page3" class="div1" style="background-color: rgb(0,0,200);">
-            <a href="#page2"><button>thisup</button></a>
-            <h1>PAGE 3</h1>
-            <a href="#page4" onclick="pagefunction('page4')" id="link4"><button>thisdown</button></a>
+        
+        <div id="Media" class="committee">
+            <h1>Media</h1>
         </div>
-
-        <div id="page4" class="div1" style="background-color: rgb(255,255,0);">
-            <a href="#page3"><button>thisup</button></a>
-            <h1>PAGE 4</h1>
-            <a href="#page5" onclick="pagefunction('page5')" id="link4"><button>thisdown</button></a>
+        
+        <div id="WebDev" class="committee">
+            <h1>WebDev</h1>
         </div>
-
-        <div id="page5" class="div1" style="background-color: rgb(0,255,255);">
-            <a href="#page4"><button>thisup</button></a>
-            <h1>PAGE 5</h1>
-            <a href="#page6" onclick="pagefunction('page6')" id="link4"><button>thisdown</button></a>
-        </div>
-
-        <div id="page6" class="div1" style="background-color: rgb(255,0,255);">
-            <a href="#page5"><button>thisup</button></a>
-            <h1>PAGE 6</h1>
-        </div>
-
     </div>
     <script>
-        window.onscroll = function(){pagefunction1(id), pagehide(id)}
-        window.onclick = function(){pagefunction(id)}
-        function pagehide(id){
+        window.onscroll = function(){pageScrollFunction(id), pageHide(id)}
+        window.onclick = function(){pageFunction(id)}
+        function pageHide(id){
             var top = document.getElementById(id);
             top.style.display = "none";
         }
-        function pagefunction(id){
+        function pageFunction(id){
             var top = document.getElementById(id);
             top.style.display="block";
             k=id;
         }
-        function pagefunction1(id) {
+        function pageScrollFunction(id) {
             var top = document.getElementById(id);
             if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-                pagehide(id);
+                pageHide(id);
             }
         }
 
