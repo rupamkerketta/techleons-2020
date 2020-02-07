@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./res/css/nav-footer.css">
-    <link rel="stylesheet" type="text/css" href="./res/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./Footer/style.css">
+    <link rel="stylesheet" type="text/css" href="./Home/style.css">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <title>Web Dev</title>
     <meta name="author" content="Rupam Kerketta">
@@ -13,14 +13,14 @@
 <body>
 
     <video autoplay muted loop id="myVideo">
-        <source src="./res/videos/black-bg-1.mp4" type="video/mp4">
+        <source src="./Resources/videos/black-bg-1.mp4" type="video/mp4">
     </video>
 
     <div class="container">
         <nav class="navigation">
             <div class="logo">
                 <!-- <h1>Logo</h1> -->
-                <img src="./res/images/logos/techleons-1.png" alt="react" id="nav-logo">
+                <img src="./Resources/images/logos/techleons-1.png" alt="react" id="nav-logo">
             </div>
             <div class="burger">
                 <div class="line"></div>
@@ -30,13 +30,13 @@
                 <li><a href="">GALLERY</a></li>
                 <li><a href="http://127.0.0.1:5500/index.html#teams">TEAMS</a></li>
                 <!--teams.html-->
-                <li><a href="events.html">EVENTS</a></li>
-                <li><a href="">ABOUT</a></li>
+                <li><a href="./Events/index.html">EVENTS</a></li>
+                <li><a href="./About/index.html">ABOUT</a></li>
             </ul>
         </nav>
 
         <section class="banner">
-            <img src="./res/images/logos/techleons-1.png" alt="react" id="logo-img">
+            <img src="./Resources/images/logos/techleons-1.png" alt="react" id="logo-img">
         </section>
 
         <section class="events">
@@ -50,14 +50,14 @@
                     <h3 class="event-name">MARIO</h3>
                     <p class="event-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, neque.</p>
                     <div class="team-logo">
-                        <img src="./res/images/logos/mario.png" alt="Mario">
+                        <img src="./Resources/images/logos/mario.png" alt="Mario">
                     </div>
                 </div>
                 <div class="card" onclick="window.location.href = 'http://127.0.0.1:5500/teams/contra/';">
                     <div class="glass"></div>
                     <h3 class="event-name">Contra</h3>
                     <p class="event-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, ab!.</p>
-                    <img src="./res/images/logos/contra.png" alt="Mario">
+                    <img src="./Resources/images/logos/contra.png" alt="Mario">
                 </div>
                 <div class="card" onclick="window.location.href = 'http://127.0.0.1:5500/teams/pacman/';">
                     <div class="glass"></div>
@@ -66,7 +66,7 @@
                         alias architecto
                         soluta odit perferendis neque eos sit commodi aperiam in vero quos aut reprehenderit quidem.</p>
                     <div class="team-logo">
-                        <img src="./res/images/logos/pacman.png" alt="Mario">
+                        <img src="./Resources/images/logos/pacman.png" alt="Mario">
                     </div>
                 </div>
                 <div class="card" onclick="window.location.href = 'http://127.0.0.1:5500/teams/roadrash/';">
@@ -74,7 +74,7 @@
                     <h3 class="event-name">Roadrash</h3>
                     <p class="event-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam dolores eos blanditiis odit hic, recusandae eligendi dignissimos?</p>
                     <div class="team-logo">
-                        <img src="./res/images/logos/roadrash.png" alt="Mario">
+                        <img src="./Resources/images/logos/roadrash.png" alt="Mario">
                     </div>
                 </div>
                 <div class="card" onclick="window.location.href = 'http://127.0.0.1:5500/teams/sonic/';">
@@ -82,7 +82,7 @@
                     <h3 class="event-name">Sonic</h3>
                     <p class="event-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magni ut maxime laboriosam natus.</p>
                     <div class="team-logo">
-                        <img src="./res/images/logos/sonic.png" alt="Mario">
+                        <img src="./Resources/images/logos/sonic.png" alt="Mario">
                     </div>
                 </div>
                 <div class="card" onclick="window.location.href = 'http://127.0.0.1:5500/teams/tekken/';">
@@ -90,7 +90,7 @@
                     <h3 class="event-name">TEKKEN</h3>
                     <p class="event-details">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
                     <div class="team-logo">
-                        <img src="./res/images/logos/tekken.png" alt="Mario">
+                        <img src="./Resources/images/logos/tekken.png" alt="Mario">
                     </div>
                 </div>
             </div>
@@ -107,9 +107,9 @@
                     <li><a href="">College</a></li>
                 </ul>
                 <div class="social-media">
-                    <img src="./res/images/facebook.png" alt="Facebook">
-                    <img src="./res/images/instagram.png" alt="Instagram">
-                    <img src="./res/images/twitter.png" alt="Twitter">
+                    <img src="./Resources/images/facebook.png" alt="Facebook">
+                    <img src="./Resources/images/instagram.png" alt="Instagram">
+                    <img src="./Resources/images/twitter.png" alt="Twitter">
                 </div>
             </div>
 
@@ -119,35 +119,6 @@
         </footer>
 
     </div>
-    <script src="./res/js/app.js"></script>
-
-    <script>
-        const mario = document.querySelector('.card:nth-child(1)');
-        const contra = document.querySelector('.card:nth-child(2)');
-        const pacman = document.querySelector('.card:nth-child(3)');
-        const roadrash = document.querySelector('.card:nth-child(4)');
-        const sonic = document.querySelector('.card:nth-child(5)');
-        const tekken = document.querySelector('.card:nth-child(6)');
-
-        mario.addEventListener('click', () => {
-            window.location.href = 'http://127.0.0.1:5500/teams/mario/';
-        });
-        contra.addEventListener('click', () => {
-            window.location.href = 'http://127.0.0.1:5500/teams/contra/';
-        });
-        pacman.addEventListener('click', () => {
-            window.location.href = 'http://127.0.0.1:5500/teams/pacman/';
-        });
-        roadrash.addEventListener('click', () => {
-            window.location.href = 'http://127.0.0.1:5500/teams/roadrash/';
-        });
-        sonic.addEventListener('click', () => {
-            window.location.href = 'http://127.0.0.1:5500/teams/sonic/';
-        });
-        tekken.addEventListener('click', () => {
-            window.location.href = 'http://127.0.0.1:5500/teams/tekken/';
-        });
-    </script>
-    
+    <script src="./Home/script.js"></script>    
 </body>
 </html>
