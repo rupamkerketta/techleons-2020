@@ -68,7 +68,7 @@
     padding: 20px;
     font-family: "Muli";
     margin: auto;
-    width: 400px;
+    width: 600px;
     text-align: center;
     font-size: 2.8em;
     color: rgb(255, 255, 255);
@@ -228,4 +228,14 @@
 }
 .card:hover h3{
     color: white;
+}
+
+.battle{
+    font-size: 0.7em;
+}
+
+.event-details{
+    /* border: 1px solid white; */
+    width: 100%;
+    font-size: .7em;
 }
