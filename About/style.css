@@ -73,10 +73,10 @@ body{
 
 .grid-1 li {
 	display: inline-block;
-	width: 320px;
+	width: 260px;
     margin: 0px;
-    margin-top: 140px;
-    padding: 45px;
+    margin-top: 130px;
+    padding: 30px;
     padding-bottom: 0;
 	text-align: left;
 	position: relative;
@@ -109,7 +109,7 @@ body{
 }
 
 .section .grid-1:nth-child(2) li{
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 /* caption-1 Style */
@@ -137,17 +137,17 @@ body{
 }
 
 .caption-1 figcaption h3{
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: 100;
 }
 
 .caption-1 figcaption span{
-    font-size: 0.6em;
+	font-size: 0.5em;
 }
 
 /* grid-2 style */
 .grid-2 {
-	max-width: 1500px;
+	max-width: 4000px;
     margin: auto;
 	list-style: none;
     text-align: center;
@@ -155,10 +155,10 @@ body{
 
 .grid-2 li {
 	display: inline-block;
-	width: 320px;
+	width: 210px;
     margin: 0px;
-    margin-top: 140px;
-    padding: 45px;
+    margin-top: 160px;
+    padding: 5px;
     padding-bottom: 0;
 	text-align: left;
 	position: relative;
@@ -188,6 +188,10 @@ body{
 	margin: 0;
 	padding: 0;
     color: #fff;
+}
+
+.section .grid-2:nth-child(2) li {
+	margin-top: 90px;
 }
 
 /* caption-2 Style */
@@ -220,7 +224,7 @@ body{
 }
 
 .caption-2 figcaption span{
-    font-size: 0.6em;
+    font-size: 0.5em;
 }
 
 /* grid-3 style */
@@ -233,9 +237,9 @@ body{
 
 .grid-3 li {
 	display: inline-block;
-	width: 625px;
+	width: 525px;
     margin: 0px;
-    margin-top: 225px;
+    margin-top: 140px;
     padding: 75px;
     padding-bottom: 0;
 	text-align: left;
@@ -311,9 +315,9 @@ body{
 
 .grid-4 li {
 	display: inline-block;
-	width: 400px;
+	width: 300px;
     margin: 0px;
-    margin-top: 125px;
+    margin-top: 110px;
     padding: 45px;
     padding-bottom: 0;
 	text-align: left;
@@ -375,12 +379,12 @@ body{
 }
 
 .caption-4 figcaption h3{
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-weight: 100;
 }
 
 .caption-4 figcaption span{
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 /* grid-5 style */
@@ -465,83 +469,6 @@ body{
     font-size: 0.7em;
 }
 
-/* grid-6 style */
-.grid-6 {
-	max-width: 2000px;
-    margin: auto;
-	list-style: none;
-    text-align: center;
-}
-
-.grid-6 li {
-	display: inline-block;
-	width: 625px;
-    margin: 0px;
-    margin-top: 225px;
-    padding: 75px;
-    padding-bottom: 0;
-	text-align: left;
-	position: relative;
-}
-
-.grid-6 figure {
-	margin: 0;
-	position: relative;
-}
-
-.grid-6 figure img {
-    max-width: 100%;
-	display: block;
-	position: relative;
-}
-
-.grid-6 figcaption {
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 20px;
-	background: #2c3f52;
-	color: #ed4e6e;
-}
-
-.grid-6 figcaption h3 {
-	margin: 0;
-	padding: 0;
-    color: #fff;
-}
-
-/* caption-6 Style */
-.caption-6 figure img {
-	z-index: 1;
-	-webkit-transition: -webkit-transform 0.4s;
-	-moz-transition: -moz-transform 0.4s;
-    transition: transform 0.4s ease-out;
-    transition-delay: 0.12s;
-}
-
-.no-touch .caption-6 figure:hover img,
-.caption-6 figure.cs-hover img {
-	-webkit-transform: translateY(-90px);
-	-moz-transform: translateY(-90px);
-	-ms-transform: translateY(-90px);
-	transform: translateY(-90px);
-}
-
-.caption-6 figcaption {
-	height: 100px;
-	width: 100%;
-	top: auto;
-    bottom: 0;
-}
-
-.caption-6 figcaption h3{
-    font-size: 1em;
-    font-weight: 100;
-}
-
-.caption-6 figcaption span{
-    font-size: 0.8em;
-}
 /* border-animation */
 
 .nav-a:before,

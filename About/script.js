@@ -1,8 +1,3 @@
-//ChangeZoom
-function toggleZoomScreen() {
-	document.body.style.zoom = "80%";
-}
-window.onload=toggleZoomScreen();
 // FullPageScroll
 window.onclick = function () { pageFunction(id) }
 function pageFunction(id) {
