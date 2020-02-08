@@ -10,7 +10,11 @@ const handle = () => {
         line.classList.toggle('vanish');
     });
 }
-
+//ChangeZoom
+function toggleZoomScreen() {
+    document.body.style.zoom = "100%";
+}
+window.onload=toggleZoomScreen();
 handle();
 // TeamSelectionHandling
 const mario = document.querySelector('.card:nth-child(1)');
