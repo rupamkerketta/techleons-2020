@@ -20,20 +20,20 @@ const sonic = document.querySelector('.card:nth-child(5)');
 const tekken = document.querySelector('.card:nth-child(6)');
 
 mario.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5500/teams/mario/';
+    window.location.href = './teams/mario/';
 });
 contra.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5500/teams/contra/';
+    window.location.href = './teams/contra/index.html';
 });
 pacman.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5500/teams/pacman/';
+    window.location.href = './teams/pacman/';
 });
 roadrash.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5500/teams/roadrash/';
+    window.location.href = './teams/roadrash/';
 });
 sonic.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5500/teams/sonic/';
+    window.location.href = './teams/sonic/';
 });
 tekken.addEventListener('click', () => {
-    window.location.href = 'http://127.0.0.1:5500/teams/tekken/';
+    window.location.href = './teams/tekken/';
 });

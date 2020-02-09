@@ -12,131 +12,136 @@
         @import url('https://fonts.googleapis.com/css?family=Muli:300&display=swap');
 
         @font-face {
-        font-family: "TEKKEN";
-        src: url("../../Resources/fonts/TEKKEN.ttf");
+            font-family: "TEKKEN";
+            src: url("../../Resources/fonts/TEKKEN.ttf");
         }
 
         .team-logo {
-        width: 300px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
         }
 
         .team-logo h2 {
-        font-family: "TEKKEN";
-        font-size: 1.9em;
-        color: white;
-        z-index: 1;
+            font-family: "TEKKEN";
+            font-size: 2em;
+            color: white;
+            z-index: 1;
+            letter-spacing: 4px;
         }
 
         .team-logo img {
-        width: 150px;
-        z-index: 1;
+            width: 150px;
+            z-index: 1;
         }
 
         .team-banner {
-        width: 300px;
-        margin: auto;
-        /* border: 1px solid white; */
+            width: 300px;
+            margin: auto;
+            /* border: 1px solid white; */
         }
 
-        .card-content h3{
-        font-family: "Muli";
-        font-weight: 300;
-        color: white;
-        /* border: 1px solid white; */
-        display: flex;
-        width: 85%;
-        margin: auto;
-        justify-content: space-between;
+        .card-content h3 {
+            font-family: "Muli";
+            font-weight: 300;
+            color: white;
+            /* border: 1px solid white; */
+            display: flex;
+            width: 85%;
+            margin: auto;
+            justify-content: space-between;
         }
 
-        .team-member h3:nth-child(1),h3:nth-child(2) {
-        font-weight: 100;
+        .team-member h3:nth-child(1),
+        h3:nth-child(2) {
+            font-weight: 100;
         }
 
 
         .back-btn {
-        text-decoration: none;
-        color: black;
-        background-color: white;
-        padding: 10px;
-        position: fixed;
-        border-radius: 4px;
-        font-family: 'Muli';
-        padding-left: 14px;
-        padding-right: 14px;
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            padding: 10px;
+            position: fixed;
+            border-radius: 4px;
+            font-family: 'Muli';
+            padding-left: 14px;
+            padding-right: 14px;
         }
 
-        .card .card-head h3{
-        color: white;
-        font-size: 1.7em;
-        border-bottom: 1px solid white;
-        width: 80%;
-        margin: auto;
-        margin-top: 7px;
-        font-family: "TEKKEN";
-        font-weight: 300;
-        padding-top: 17px;
-        padding-bottom: 14px;
+        .card .card-head h3 {
+            color: white;
+            font-size: 1.7em;
+            border-bottom: 1px solid white;
+            width: 80%;
+            margin: auto;
+            margin-top: 7px;
+            font-family: "TEKKEN";
+            font-weight: 300;
+            padding-top: 17px;
+            padding-bottom: 14px;
+            letter-spacing: 3px;
         }
 
-        .card-content{
-        margin-top: 17px;
-        padding-bottom: 20px;
+        .card-content {
+            margin-top: 17px;
+            padding-bottom: 20px;
         }
 
-        .card-content h3{
-        margin-top: 3px;
+        .card-content h3 {
+            margin-top: 3px;
         }
 
-        .card{
-        font-family: "Muli";
-        text-align: center;
-        width: 480px;
-        /* height: 350px; */
-        margin-top: 100px;
-        border-radius: 5px;
-        background-color: rgba(0, 0, 0, 0.692);
-        box-shadow: 0 27px 17px -17px rgba(56, 56, 56, 0.308);
-        margin-top: 50px;
-        transition: all .4s ease;
-        color: rgb(216, 208, 208);
-        position: relative;
-        cursor: pointer;
+        .card {
+            font-family: "Muli";
+            text-align: center;
+            width: 400px;
+            /* height: 350px; */
+            margin-top: 100px;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.692);
+            box-shadow: 0 27px 17px -17px rgba(56, 56, 56, 0.308);
+            margin-top: 50px;
+            transition: all .4s ease;
+            color: rgb(216, 208, 208);
+            position: relative;
+            cursor: pointer;
         }
 
         .card:hover {
-        transform: scale(1.02);
-        box-shadow: 0 5px 7px rgb(0, 0, 0);
-        font-weight: bolder;
+            transform: scale(1.02);
+            box-shadow: 0 5px 7px rgb(0, 0, 0);
+            font-weight: bolder;
         }
 
         #myVideo {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100vh;
-        z-index: -1;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100vh;
+            z-index: -1;
         }
 
-        .glass{
-        background-color: rgba(10, 10, 10, 0.603);
-        width: 100%;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 0;
+        .glass {
+            background-color: rgba(10, 10, 10, 0.603);
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
         }
 
-        .team-members-cards{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
+        .team-members-cards {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 90%;
+            margin: auto;
         }
     </style>
 </head>
@@ -161,226 +166,226 @@
         </div>
         <div class="team-members-cards">
 
-        <div class='card'>
-            <div class='card-head'>
-                <h3>6CMS</h3>
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>6CMS</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>Deepak Paul Cherian<span class='reg-no'>1740206</span></h3>
+                    <h3>Dhairya Deewan<span class='reg-no'>1740207</span></h3>
+                    <h3>Emmalu Joseph<span class='reg-no'>1740208</span></h3>
+                    <h3>Varun Singh<span class='reg-no'>1740221</span></h3>
+                    <h3>Aishwarya Anandan<span class='reg-no'>1740222</span></h3>
+                    <h3>Andrea Lebon<span class='reg-no'>1740223</span></h3>
+                    <h3>Yash Raj<span class='reg-no'>1740247</span></h3>
+                    <h3>C Sruti<span class='reg-no'>1740248</span></h3>
+                    <h3>Parinitha R<span class='reg-no'>1740283</span></h3>
+                    <h3>Mathan Bhaarathi A S<span class='reg-no'>1740284</span></h3>
+                    <h3>Renuga S P<span class='reg-no'>1740286</span></h3>
+                    <h3>Mary Roshini L<span class='reg-no'>1740277</span></h3>
+                    <h3>Laxmy Narayan<span class='reg-no'>1740258</span></h3>
+                    <h3>Rahul Singh<span class='reg-no'>1740259</span></h3>
+                </div>
             </div>
-            <div class='card-content'>
-        
-                <h3>Deepak Paul Cherian<span class='reg-no'>1740206</span></h3>
-                <h3>Dhairya Deewan<span class='reg-no'>1740207</span></h3>
-                <h3>Emmalu Joseph<span class='reg-no'>1740208</span></h3>
-                <h3>Varun Singh<span class='reg-no'>1740221</span></h3>
-                <h3>Aishwarya Anandan<span class='reg-no'>1740222</span></h3>
-                <h3>Andrea Lebon<span class='reg-no'>1740223</span></h3>
-                <h3>Yash Raj<span class='reg-no'>1740247</span></h3>
-                <h3>C Sruti<span class='reg-no'>1740248</span></h3>
-                <h3>Parinitha R<span class='reg-no'>1740283</span></h3>
-                <h3>Mathan Bhaarathi A S<span class='reg-no'>1740284</span></h3>
-                <h3>Renuga S P<span class='reg-no'>1740286</span></h3>
-                <h3>Mary Roshini L<span class='reg-no'>1740277</span></h3>
-                <h3>Laxmy Narayan<span class='reg-no'>1740258</span></h3>
-                <h3>Rahul Singh<span class='reg-no'>1740259</span></h3>
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>6 BCA A</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>S Rudresh<span class='reg-no'>1741049</span></h3>
+                    <h3>Sharon Kerketta<span class='reg-no'>1741050</span></h3>
+                    <h3>Dev Yadav<span class='reg-no'>1741020</span></h3>
+                    <h3>Krunal Lia<span class='reg-no'>1741032</span></h3>
+                    <h3>Vijay Kumar Prakash<span class='reg-no'>1741063</span></h3>
+                    <h3>Amber Ujjwal Linda<span class='reg-no'>1741006</span></h3>
+                    <h3>Pawan Waldia<span class='reg-no'>1741041</span></h3>
+                    <h3>Rohit Nabis Das<span class='reg-no'>1741048</span></h3>
+                    <h3>Pitchayut Khumkrongsap<span class='reg-no'>1741042</span></h3>
+                </div>
             </div>
-        </div>
-        <div class='card'>
-            <div class='card-head'>
-                <h3>6 BCA A</h3>
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>6 BCA B</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>Shivani D Talreja<span class='reg-no'>1741151</span></h3>
+                    <h3>Sneha Agarwal<span class='reg-no'>1741152</span></h3>
+                    <h3>Ritika Sen<span class='reg-no'>1741164</span></h3>
+                    <h3>Shane Alex Pereira<span class='reg-no'>1741148</span></h3>
+                    <h3>Ratandeep Kaur Sodhi<span class='reg-no'>1741142</span></h3>
+                    <h3>M S Ashwin Balaji<span class='reg-no'>1741130</span></h3>
+                    <h3>Hemashree S<span class='reg-no'>1741124</span></h3>
+                    <h3>Achal C Prahlad<span class='reg-no'>1741102</span></h3>
+                    <h3>Aparna Thakur<span class='reg-no'>1741109</span></h3>
+                    <h3>Dhananjay Singh Kanwar<span class='reg-no'>1741115</span></h3>
+                    <h3><span class='reg-no'></span></h3>
+                </div>
             </div>
-            <div class='card-content'>
-        
-                <h3>S Rudresh<span class='reg-no'>1741049</span></h3>
-                <h3>Sharon Kerketta<span class='reg-no'>1741050</span></h3>
-                <h3>Dev Yadav<span class='reg-no'>1741020</span></h3>
-                <h3>Krunal Lia<span class='reg-no'>1741032</span></h3>
-                <h3>Vijay Kumar Prakash<span class='reg-no'>1741063</span></h3>
-                <h3>Amber Ujjwal Linda<span class='reg-no'>1741006</span></h3>
-                <h3>Pawan Waldia<span class='reg-no'>1741041</span></h3>
-                <h3>Rohit Nabis Das<span class='reg-no'>1741048</span></h3>
-                <h3>Pitchayut Khumkrongsap<span class='reg-no'>1741042</span></h3>
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>6 CME</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>Amit Kumar<span class='reg-no'>1740105</span></h3>
+                    <h3>Idriss Tahir Khamiss<span class='reg-no'>1740109</span></h3>
+                    <h3>S Rajesh<span class='reg-no'>1740114</span></h3>
+                    <h3>Tashi Dhondup<span class='reg-no'>1740117</span></h3>
+                    <h3>Ann Minna Babu<span class='reg-no'>1740124</span></h3>
+                    <h3>Derin Ben Roberts P<span class='reg-no'>1740136</span></h3>
+                    <h3>Maria Angelin D<span class='reg-no'>1740138</span></h3>
+                    <h3>Ganesh Nath J<span class='reg-no'>1740144</span></h3>
+                    <h3>Saheema M<span class='reg-no'>1740150</span></h3>
+                    <h3>Alex Paul Padamadan<span class='reg-no'>1740140</span></h3>
+                    <h3>Ulsah S U<span class='reg-no'>1740120</span></h3>
+                </div>
             </div>
-        </div>
-        <div class='card'>
-            <div class='card-head'>
-                <h3>6 BCA B</h3>
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>4 CME</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>Liaojialin<span class='reg-no'>1840109</span></h3>
+                    <h3>Mukesh Kumar<span class='reg-no'>1840110</span></h3>
+                    <h3>Rohan V<span class='reg-no'>1840130</span></h3>
+                    <h3>Uthappa<span class='reg-no'>1840131</span></h3>
+                    <h3>Akash K<span class='reg-no'>1840134</span></h3>
+                    <h3>P V S Avinash<span class='reg-no'>1840112</span></h3>
+                    <h3>Pranathi.C<span class='reg-no'>1840152</span></h3>
+                    <h3>Sare Venkateswarlu<span class='reg-no'>1840157</span></h3>
+                </div>
             </div>
-            <div class='card-content'>
-        
-                <h3>Shivani D Talreja<span class='reg-no'>1741151</span></h3>
-                <h3>Sneha Agarwal<span class='reg-no'>1741152</span></h3>
-                <h3>Ritika Sen<span class='reg-no'>1741164</span></h3>
-                <h3>Shane Alex Pereira<span class='reg-no'>1741148</span></h3>
-                <h3>Ratandeep Kaur Sodhi<span class='reg-no'>1741142</span></h3>
-                <h3>M S Ashwin Balaji<span class='reg-no'>1741130</span></h3>
-                <h3>Hemashree S<span class='reg-no'>1741124</span></h3>
-                <h3>Achal C Prahlad<span class='reg-no'>1741102</span></h3>
-                <h3>Aparna Thakur<span class='reg-no'>1741109</span></h3>
-                <h3>Dhananjay Singh Kanwar<span class='reg-no'>1741115</span></h3>
-                <h3><span class='reg-no'></span></h3>
+
+
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>4 CMS</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>Navneeth Premanad<span class='reg-no'>1840249</span></h3>
+                    <h3>Himanshu Kumar Singh V<span class='reg-no'>1840247</span></h3>
+                    <h3>Lakshmikanth A<span class='reg-no'>1840203</span></h3>
+                    <h3>Anubin Binoy<span class='reg-no'>1840252</span></h3>
+                    <h3>Manoj K<span class='reg-no'>1840268</span></h3>
+                    <h3>Rinu Francis<span class='reg-no'>1840289</span></h3>
+                    <h3>Hema Madhuri G<span class='reg-no'>1840273</span></h3>
+                    <h3>Aishwarya N<span class='reg-no'>1840226</span></h3>
+                    <h3>Aishwarya Hr<span class='reg-no'>1840270</span></h3>
+                    <h3>Harshini N<span class='reg-no'>1840280</span></h3>
+                </div>
             </div>
-        </div>
-        <div class='card'>
-            <div class='card-head'>
-                <h3>6 CME</h3>
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>4 BCA A</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>Shubh Jain<span class='reg-no'>1841053</span></h3>
+                    <h3>Yash Martin<span class='reg-no'>1841063</span></h3>
+                    <h3>Kunal Jain<span class='reg-no'>1841028</span></h3>
+                    <h3>Gautam Daga<span class='reg-no'>1841016</span></h3>
+                    <h3>Jaspreet Singh<span class='reg-no'>1841021</span></h3>
+                    <h3>Ramith K S<span class='reg-no'>1841040</span></h3>
+                    <h3>J Nikhil Lvg<span class='reg-no'>1841022</span></h3>
+                </div>
             </div>
-            <div class='card-content'>
-        
-                <h3>Amit Kumar<span class='reg-no'>1740105</span></h3>
-                <h3>Idriss Tahir Khamiss<span class='reg-no'>1740109</span></h3>
-                <h3>S Rajesh<span class='reg-no'>1740114</span></h3>
-                <h3>Tashi Dhondup<span class='reg-no'>1740117</span></h3>
-                <h3>Ann Minna Babu<span class='reg-no'>1740124</span></h3>
-                <h3>Derin Ben Roberts P<span class='reg-no'>1740136</span></h3>
-                <h3>Maria Angelin D<span class='reg-no'>1740138</span></h3>
-                <h3>Ganesh Nath J<span class='reg-no'>1740144</span></h3>
-                <h3>Saheema M<span class='reg-no'>1740150</span></h3>
-                <h3>Alex Paul Padamadan<span class='reg-no'>1740140</span></h3>
-                <h3>Ulsah S U<span class='reg-no'>1740120</span></h3>
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>4 BCA B</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>Ashutosh Roy<span class='reg-no'>1841107</span></h3>
+                    <h3>Gopal Agarwal<span class='reg-no'>1841115</span></h3>
+                    <h3>Teja Reddy<span class='reg-no'>1841126</span></h3>
+                    <h3>Siddarth S Sanjay<span class='reg-no'>1841153</span></h3>
+                    <h3>Srishti Kedia<span class='reg-no'>1841155</span></h3>
+                    <h3>Aishwarya Pradeep<span class='reg-no'>1841101</span></h3>
+                </div>
             </div>
-        </div>
-        <div class='card'>
-            <div class='card-head'>
-                <h3>4 CME</h3>
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>2 BCA B</h3>
+                </div>
+                <div class='card-content'>
+
+
+                    <h3>Pannathat Krungkrai<span class='reg-no'></span></h3>
+                    <h3>Meatha Treetaweepornsub<span class='reg-no'>1941123</span></h3>
+                    <h3>Bongkorch<span class='reg-no'>1941152</span></h3>
+                    <h3>Umbar Chopra<span class='reg-no'>1941142</span></h3>
+                    <h3>Saaransh Sethi<span class='reg-no'>1941132</span></h3>
+                    <h3>Deepanshu Saraogi<span class='reg-no'>1941107</span></h3>
+                    <h3>Vivek S Krishna<span class='reg-no'>1941131</span></h3>
+                    <h3>Vijetha Shravya<span class='reg-no'>1941166</span></h3>
+                    <h3>Bhargav Phukan<span class='reg-no'>1941104</span></h3>
+                    <h3>Anshula Malli<span class='reg-no'>1941150</span></h3>
+                </div>
             </div>
-            <div class='card-content'>
-        
-                <h3>Liaojialin<span class='reg-no'>1840109</span></h3>
-                <h3>Mukesh Kumar<span class='reg-no'>1840110</span></h3>
-                <h3>Rohan V<span class='reg-no'>1840130</span></h3>
-                <h3>Uthappa<span class='reg-no'>1840131</span></h3>
-                <h3>Akash K<span class='reg-no'>1840134</span></h3>
-                <h3>P V S Avinash<span class='reg-no'>1840112</span></h3>
-                <h3>Pranathi.C<span class='reg-no'>1840152</span></h3>
-                <h3>Sare Venkateswarlu<span class='reg-no'>1840157</span></h3>
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>2 BCA A</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>Dipanshu Vaibhav<span class='reg-no'>1941019</span></h3>
+                    <h3>Ansh Tyagi<span class='reg-no'>1941010</span></h3>
+                    <h3>Kevin Benny<span class='reg-no'>1941028</span></h3>
+                    <h3>Aryan Boonlia<span class='reg-no'>1941012</span></h3>
+                    <h3>Arpit Chandak<span class='reg-no'>1941011</span></h3>
+                    <h3>Durgesh Kumar Sahu<span class='reg-no'>1941020</span></h3>
+                    <h3>Sathya M<span class='reg-no'>1941044</span></h3>
+                    <h3>Shiva Kumar K<span class='reg-no'>1941046</span></h3>
+                    <h3>Sagar S<span class='reg-no'>1941040</span></h3>
+                </div>
             </div>
-        </div>
-        
-        
-        <div class='card'>
-            <div class='card-head'>
-                <h3>4 CMS</h3>
+
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>2 CME</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>Abhishek R<span class='reg-no'>1940141</span></h3>
+                    <h3>Snigdha Bhat U<span class='reg-no'>1940157</span></h3>
+                    <h3>Rahul Ramachandran<span class='reg-no'>1940108</span></h3>
+                    <h3>Loga Vinayagaa P A<span class='reg-no'>1940165</span></h3>
+                    <h3>Najim Safi<span class='reg-no'>1940172</span></h3>
+                    <h3>Debayan Kumar Saha<span class='reg-no'>1940103</span></h3>
+                    <h3>Supan Amrapali Vishwanath<span class='reg-no'>1940170</span></h3>
+                    <h3>Lijin L<span class='reg-no'>1940104</span></h3>
+                    <h3>Adarsh N<span class='reg-no'>1940170</span></h3>
+                    <h3>Ans Mariejoe Androos<span class='reg-no'>1940111</span></h3>
+                    <h3>Arnold Joe.M<span class='reg-no'>1940164</span></h3>
+                    <h3>Briyash Rai<span class='reg-no'>1940101</span></h3>
+                </div>
             </div>
-            <div class='card-content'>
-        
-                <h3>Navneeth Premanad<span class='reg-no'>1840249</span></h3>
-                <h3>Himanshu Kumar Singh V<span class='reg-no'>1840247</span></h3>
-                <h3>Lakshmikanth A<span class='reg-no'>1840203</span></h3>
-                <h3>Anubin Binoy<span class='reg-no'>1840252</span></h3>
-                <h3>Manoj K<span class='reg-no'>1840268</span></h3>
-                <h3>Rinu Francis<span class='reg-no'>1840289</span></h3>
-                <h3>Hema Madhuri G<span class='reg-no'>1840273</span></h3>
-                <h3>Aishwarya N<span class='reg-no'>1840226</span></h3>
-                <h3>Aishwarya Hr<span class='reg-no'>1840270</span></h3>
-                <h3>Harshini N<span class='reg-no'>1840280</span></h3>
+
+            <div class='card'>
+                <div class='card-head'>
+                    <h3>2 CMS</h3>
+                </div>
+                <div class='card-content'>
+
+                    <h3>Krishnans Pandey<span class='reg-no'>1940218</span></h3>
+                    <h3>Adarsh Kumar<span class='reg-no'>1940258</span></h3>
+                    <h3>Bhavya Kukkar<span class='reg-no'>1940261</span></h3>
+                    <h3>Rithik K R<span class='reg-no'>1940263</span></h3>
+                    <h3>Adeeba Amreen<span class='reg-no'>1940267</span></h3>
+                    <h3>Husna Kouser<span class='reg-no'>1940268</span></h3>
+                    <h3>Jensie Ann Jen<span class='reg-no'>1940269</span></h3>
+                    <h3>Sheetal C Sijo<span class='reg-no'>1940271</span></h3>
+                    <h3>Shreya Goel<span class='reg-no'>1940272</span></h3>
+                    <h3>John Gilbert L<span class='reg-no'>1940275</span></h3>
+                    <h3>Raghavi K<span class='reg-no'>1940277</span></h3>
+                    <h3>Madhuvanthi R S<span class='reg-no'>1940281</span></h3>
+                </div>
             </div>
-        </div>
-        <div class='card'>
-            <div class='card-head'>
-                <h3>4 BCA A</h3>
-            </div>
-            <div class='card-content'>
-        
-                <h3>Shubh Jain<span class='reg-no'>1841053</span></h3>
-                <h3>Yash Martin<span class='reg-no'>1841063</span></h3>
-                <h3>Kunal Jain<span class='reg-no'>1841028</span></h3>
-                <h3>Gautam Daga<span class='reg-no'>1841016</span></h3>
-                <h3>Jaspreet Singh<span class='reg-no'>1841021</span></h3>
-                <h3>Ramith K S<span class='reg-no'>1841040</span></h3>
-                <h3>J Nikhil Lvg<span class='reg-no'>1841022</span></h3>
-            </div>
-        </div>
-        <div class='card'>
-            <div class='card-head'>
-                <h3>4 BCA B</h3>
-            </div>
-            <div class='card-content'>
-        
-                <h3>Ashutosh Roy<span class='reg-no'>1841107</span></h3>
-                <h3>Gopal Agarwal<span class='reg-no'>1841115</span></h3>
-                <h3>Teja Reddy<span class='reg-no'>1841126</span></h3>
-                <h3>Siddarth S Sanjay<span class='reg-no'>1841153</span></h3>
-                <h3>Srishti Kedia<span class='reg-no'>1841155</span></h3>
-                <h3>Aishwarya Pradeep<span class='reg-no'>1841101</span></h3>
-            </div>
-        </div>
-        <div class='card'>
-            <div class='card-head'>
-                <h3>2 BCA B</h3>
-            </div>
-            <div class='card-content'>
-        
-        
-                <h3>Pannathat Krungkrai<span class='reg-no'></span></h3>
-                <h3>Meatha Treetaweepornsub<span class='reg-no'>1941123</span></h3>
-                <h3>Bongkorch<span class='reg-no'>1941152</span></h3>
-                <h3>Umbar Chopra<span class='reg-no'>1941142</span></h3>
-                <h3>Saaransh Sethi<span class='reg-no'>1941132</span></h3>
-                <h3>Deepanshu Saraogi<span class='reg-no'>1941107</span></h3>
-                <h3>Vivek S Krishna<span class='reg-no'>1941131</span></h3>
-                <h3>Vijetha Shravya<span class='reg-no'>1941166</span></h3>
-                <h3>Bhargav Phukan<span class='reg-no'>1941104</span></h3>
-                <h3>Anshula Malli<span class='reg-no'>1941150</span></h3>
-            </div>
-        </div>
-        <div class='card'>
-            <div class='card-head'>
-                <h3>2 BCA A</h3>
-            </div>
-            <div class='card-content'>
-        
-                <h3>Dipanshu Vaibhav<span class='reg-no'>1941019</span></h3>
-                <h3>Ansh Tyagi<span class='reg-no'>1941010</span></h3>
-                <h3>Kevin Benny<span class='reg-no'>1941028</span></h3>
-                <h3>Aryan Boonlia<span class='reg-no'>1941012</span></h3>
-                <h3>Arpit Chandak<span class='reg-no'>1941011</span></h3>
-                <h3>Durgesh Kumar Sahu<span class='reg-no'>1941020</span></h3>
-                <h3>Sathya M<span class='reg-no'>1941044</span></h3>
-                <h3>Shiva Kumar K<span class='reg-no'>1941046</span></h3>
-                <h3>Sagar S<span class='reg-no'>1941040</span></h3>
-            </div>
-        </div>
-        
-        <div class='card'>
-            <div class='card-head'>
-                <h3>2 CME</h3>
-            </div>
-            <div class='card-content'>
-        
-                <h3>Abhishek R<span class='reg-no'>1940141</span></h3>
-                <h3>Snigdha Bhat U<span class='reg-no'>1940157</span></h3>
-                <h3>Rahul Ramachandran<span class='reg-no'>1940108</span></h3>
-                <h3>Loga Vinayagaa P A<span class='reg-no'>1940165</span></h3>
-                <h3>Najim Safi<span class='reg-no'>1940172</span></h3>
-                <h3>Debayan Kumar Saha<span class='reg-no'>1940103</span></h3>
-                <h3>Supan Amrapali Vishwanath<span class='reg-no'>1940170</span></h3>
-                <h3>Lijin L<span class='reg-no'>1940104</span></h3>
-                <h3>Adarsh N<span class='reg-no'>1940170</span></h3>
-                <h3>Ans Mariejoe Androos<span class='reg-no'>1940111</span></h3>
-                <h3>Arnold Joe.M<span class='reg-no'>1940164</span></h3>
-                <h3>Briyash Rai<span class='reg-no'>1940101</span></h3>
-            </div>
-        </div>
-        
-        <div class='card'>
-            <div class='card-head'>
-                <h3>2 CMS</h3>
-            </div>
-            <div class='card-content'>
-        
-                <h3>Krishnans Pandey<span class='reg-no'>1940218</span></h3>
-                <h3>Adarsh Kumar<span class='reg-no'>1940258</span></h3>
-                <h3>Bhavya Kukkar<span class='reg-no'>1940261</span></h3>
-                <h3>Rithik K R<span class='reg-no'>1940263</span></h3>
-                <h3>Adeeba Amreen<span class='reg-no'>1940267</span></h3>
-                <h3>Husna Kouser<span class='reg-no'>1940268</span></h3>
-                <h3>Jensie Ann Jen<span class='reg-no'>1940269</span></h3>
-                <h3>Sheetal C Sijo<span class='reg-no'>1940271</span></h3>
-                <h3>Shreya Goel<span class='reg-no'>1940272</span></h3>
-                <h3>John Gilbert L<span class='reg-no'>1940275</span></h3>
-                <h3>Raghavi K<span class='reg-no'>1940277</span></h3>
-                <h3>Madhuvanthi R S<span class='reg-no'>1940281</span></h3>
-            </div>
-        </div>
 
         </div>
     </div>
