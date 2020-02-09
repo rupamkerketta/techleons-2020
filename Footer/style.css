@@ -199,6 +199,8 @@ footer img {
 
 footer .cpy {
     color: rgb(211, 206, 206);
+    /* border: 1px solid white; */
+    text-align: center;
     /* color: white; */
     margin: auto;
     width: 500px;
@@ -209,4 +211,16 @@ footer .cpy {
 #nav-logo {
     width: 140px;
     margin-top: -10px;
+}
+
+footer .christ-logo{
+    position: absolute;
+    left: 20px;
+    padding-top: 10px;
+}
+
+footer .christ-logo img{
+    width: 200px;
+    height: 69px;
+    opacity: 0.5;
 }

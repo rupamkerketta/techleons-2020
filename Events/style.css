@@ -36,7 +36,7 @@ body{
     margin-top: 30px;
 }
 
-.event-info h3{
+.event-info h2, h4{
     padding: 5px;
 }
 
@@ -75,7 +75,7 @@ body{
     width: 300px;
 }
 
-.event-info h2{
+.event-info h2, h4{
     font-family : "Poppins";
     font-weight: 100;
     color: rgb(43, 43, 43);
