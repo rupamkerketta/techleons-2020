@@ -150,6 +150,10 @@ body{
 	font-size: 0.5em;
 }
 
+.caption-1 figcaption span:nth-child(2){
+	font-size: 0.6em;
+}
+
 /* grid-2 style */
 .grid-2 {
 	max-width: 4000px;
