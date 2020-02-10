@@ -10,11 +10,11 @@ body {
 
 @media only screen and (max-width: 1000px) {
     nav{
-        z-index: 1;
+        z-index: 100;
     }
     
-    burger{
-        position: fixed;
+    .burger{
+        position: relative;
     }
     
     nav .nav-links {
@@ -32,6 +32,7 @@ body {
         transform: translateX(100%);
         transition: all .7s ease;
         background-color: rgb(255, 255, 255);
+        z-index: 100;
     }
 
     .navigation a{
@@ -42,6 +43,10 @@ body {
         flex-direction: column;
         height: 180px;
     }
+
+    /* #logo-img{
+        display: none;
+    } */
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1920px) {

@@ -56,12 +56,15 @@
 
 .banner{
     text-align: center;
+    min-height: 400px;
 }
 
 
 #logo-img{
-    height: 300px;
+    height: 100px;
     margin-top: 40px;
+    margin-top: 200px;
+    pointer-events: none;
 }
 
 .logo a:active, .logo a:visited, .logo a:hover, .logo a:link,

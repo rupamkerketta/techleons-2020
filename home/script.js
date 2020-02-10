@@ -3,6 +3,14 @@ const handle = () => {
     const burger = document.querySelector('.burger');
     const sideNav = document.querySelector('.nav-links');
     const line = document.querySelector('.line');
+
+    const events = document.querySelector('.events');
+
+    events.addEventListener('click', () => {
+        sideNav.classList.toggle('slide');
+        burger.classList.toggle('active');
+        line.classList.toggle('vanish');
+    });
     
     burger.addEventListener( 'click', () => {
         sideNav.classList.toggle('slide');
