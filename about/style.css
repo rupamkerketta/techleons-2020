@@ -527,3 +527,10 @@ body{
 		min-width: 300px;
 	}
 }
+
+/* Yae Dekh Lo */
+
+.caption-1 figcaption h3{
+	font-family: 'Muli';
+	font-size: 0.6em;
+}
