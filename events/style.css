@@ -4,6 +4,12 @@ body{
     background-color: rgb(7, 7, 7);
 }
 
+.logo a:active, .logo a:visited, .logo a:hover, .logo a:link,
+.nav-links a:active, .nav-links a:visited, .nav-links a:hover, .nav-links a:link{
+    outline: none;
+}
+
+
 .event-cards{
     margin-top: 40px;
     /* border: 1px solid white; */
