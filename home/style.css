@@ -1,31 +1,31 @@
 @font-face {
     font-family: "Mario";
-    src: url("../Resources/fonts/mario.ttf");
+    src: url("../resources/fonts/mario.ttf");
 }
 
 @font-face {
     font-family: "Contra";
-    src: url("../Resources/fonts/contra.ttf");
+    src: url("../resources/fonts/contra.ttf");
 }
 
 @font-face {
     font-family: "Pacman";
-    src: url("../Resources/fonts/pacman.ttf");
+    src: url("../resources/fonts/pacman.ttf");
 }
 
 @font-face {
     font-family: "Roadrash";
-    src: url("../Resources/fonts/roadrash.otf");
+    src: url("../resources/fonts/roadrash.otf");
 }
 
 @font-face {
     font-family: "Sonic";
-    src: url("../Resources/fonts/sonic.TTF");
+    src: url("../resources/fonts/sonic.TTF");
 }
 
 @font-face {
     font-family: "Tekken";
-    src: url("../Resources/fonts/tekken.ttf");
+    src: url("../resources/fonts/tekken.ttf");
 }
 
 #myVideo {
@@ -62,6 +62,11 @@
 #logo-img{
     height: 300px;
     margin-top: 40px;
+}
+
+.logo a:active, .logo a:visited, .logo a:hover, .logo a:link,
+.nav-links a:active, .nav-links a:visited, .nav-links a:hover, .nav-links a:link{
+    outline: none;
 }
 
 .events h1{
