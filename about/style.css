@@ -315,3 +315,50 @@ body{
 		min-width: 300px;
 	}
 }
+
+.mobile-view{
+    display: none;
+}
+
+@media only screen and (max-width: 480px){
+    #container{
+        display: none;
+    }
+
+    .mobile-view{
+        display: block;
+    }
+
+    .comm{
+        border: 1px solid white;
+    }
+
+    .card img{
+        width: 100px;
+        border-radius: 4px;
+    }
+
+    .card{
+        /* border: 1px solid white; */
+        width: fit-content;
+    }
+
+    .card h3{
+        font-family: 'Poppins';
+        color: white;
+        font-size: 0.7em;
+        font-weight: 100;
+    }
+
+    .title h2{
+        font-family: 'Poppins';
+        color: white;
+        padding-bottom: 17px;
+    }
+
+    .cards-wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
