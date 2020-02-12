@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.47, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <meta name="authors" content="Rupam Kerketta, Shivam Mehta">
@@ -14,7 +15,7 @@
         }
         
         table {
-            width: 1000px;
+            width: 100%;
             margin: auto;
             font-family: "Poppins";
             margin-bottom: 100px;
@@ -131,7 +132,7 @@
         <tbody>
             <tr class="c5">
                 <td class="c15" colspan="4" rowspan="1" id="pevent">
-                    <p class="c14"><span class="c12 c16">PRELIMIMARY EVENTS</span></p>
+                    <p class="c14"><span class="c12 c16">PRELIMINARY EVENTS</span></p>
                 </td>
             </tr>
             <tr class="c5">
@@ -552,6 +553,19 @@
             Copyright &copy; &lt;Techleons-2020 Team&gt; . All rights reserved.
         </div>
     </footer>
+
+    <script>
+
+         const burger = document.querySelector('.burger');
+         const sideNav = document.querySelector('.nav-links');
+         const line = document.querySelector('.line');
+
+        burger.addEventListener( 'click', () => {
+        sideNav.classList.toggle('slide');
+        burger.classList.toggle('active');
+        line.classList.toggle('vanish');
+        });
+    </script>
 </body>
 
 </html>

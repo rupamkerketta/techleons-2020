@@ -247,3 +247,28 @@
     width: 100%;
     font-size: .7em;
 }
+
+@media only screen and (max-width: 480px){
+    #logo-img {
+        height: 70px;
+        margin-top: 40px;
+        margin-top: 200px;
+        pointer-events: none;
+    }
+
+    .events{
+        margin: auto;
+    }
+
+    .banner {
+        text-align: center;
+        min-height: 300px;
+    }
+
+    .events h1{
+        font-size: 1.2em;
+        text-align: center;
+        width: 200px;
+    }
+    
+}

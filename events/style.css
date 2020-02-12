@@ -86,3 +86,10 @@ body{
     font-weight: 100;
     color: rgb(43, 43, 43);
 }
+
+@media only screen and (max-width: 480px){
+    .event-card{
+        width: 270px;
+        height: 380px;
+    }
+}

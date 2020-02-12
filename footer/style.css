@@ -203,9 +203,7 @@ footer img {
 
 footer .cpy {
     color: rgb(211, 206, 206);
-    /* border: 1px solid white; */
     text-align: center;
-    /* color: white; */
     margin: auto;
     width: 500px;
     margin-top: 50px;
@@ -225,6 +223,27 @@ footer .christ-logo{
 
 footer .christ-logo img{
     width: 200px;
-    height: 69px;
+    height: 65px;
     opacity: 0.5;
+}
+
+@media only screen and (max-width: 480px){
+    footer .christ-logo img{
+        width: 90px;
+        height: 32px;
+        margin-top: -10px;
+    }
+
+    footer .christ-logo{
+        /* border: 1px solid white; */
+        left: 0;
+    }
+
+    nav .nav-links{
+        height: 85vh;        
+    }
+
+    footer .cpy{
+        width: 290px;
+    }
 }
