@@ -7,7 +7,6 @@
 }
 
 body{
-    overflow-y: hidden;
     text-align: center;
 	margin: 0px;
 }
@@ -63,11 +62,21 @@ body{
     display: none;
 }
 
+.section1{
+    background-color: rgba(10, 10, 10, 0.822);
+    min-height: 100vh;
+    min-width: 100%;
+    font-size: 30px;
+    display: block; 
+}
 .section h1{
     padding-top: 100px;
     text-align: center;
 }
-
+.section1 h1{
+    padding-top: 100px;
+    text-align: center;
+}
 
 /* grid style */
 .grid {
@@ -152,6 +161,9 @@ body{
 .section .grid-1:nth-child(2) li{
     margin-top: 90px;
 }
+.section1 .grid-1:nth-child(2) li{
+    margin-top: 90px;
+}
 
 /* caption-1 Style */
 .caption-1 figcaption h3{
@@ -191,6 +203,9 @@ body{
     margin-top: 20px;
 }
 
+.section1 .grid-3:nth-child(2) li{
+    margin-top: 20px;
+}
 /* caption-3 Style */
 .caption-3 figcaption h3{
     font-size: 0.72em;
@@ -243,6 +258,9 @@ body{
 	margin-top: 90px;
 }
 
+.section1 .grid-5:nth-child(2) li {
+	margin-top: 90px;
+}
 /* caption-5 Style */
 .caption-5 figcaption h3{
     font-size: 0.55em;

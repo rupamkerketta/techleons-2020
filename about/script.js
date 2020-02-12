@@ -1,9 +1,9 @@
 // FullPageScroll
-window.onclick = function () { pageFunction(id) }
-function pageFunction(id) {
-    var top = document.getElementById(id);
-    top.style.display = "block";
-}
+// window.onclick = function () { pageFunction(id) }
+// function pageFunction(id) {
+//     var top = document.getElementById(id);
+//     top.style.display = "block";
+// }
 //ActiveMenu
 var links = document.getElementsByClassName('nav-a');
 for(var i=0; i<links.length; i++){
@@ -11,6 +11,16 @@ for(var i=0; i<links.length; i++){
         var active = document.getElementsByClassName('active-nav');
         active[0].className = active[0].className.replace(" active-nav", "");
         this.className += " active-nav";
+    });
+}
+
+//ActiveSection
+var linksj = document.getElementsByClassName('section');
+for(var i=0; i<linksj.length; i++){
+    linksj[i].addEventListener("hashchange", function(){
+        var active_ = document.getElementsByClassName('section1');
+        active_[0].className = active_[0].className.replace(" section1", "");
+        this.className += " section1";
     });
 }
 //ImageEffectForTouchScreen
