@@ -312,17 +312,17 @@ body{
     }
 
     .comm{
-        border: 1px solid white;
+        /* border: 1px solid white; */
     }
 
-    .card img{
-        width: 100px;
+    .core .card img{
+        width: 110px;
         border-radius: 4px;
     }
 
     .card{
-        /* border: 1px solid white; */
         width: fit-content;
+        margin-top: 17px;
     }
 
     .card h3{
