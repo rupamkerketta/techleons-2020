@@ -92,7 +92,7 @@
     height: 350px;
     margin-top: 100px;
     border-radius: 5px;
-    background-color: black;
+    background-color: rgb(49, 49, 49);
     box-shadow: 0 27px 17px -17px rgba(56, 56, 56, 0.308);
     margin-top: 50px;
     transition: all .4s ease;

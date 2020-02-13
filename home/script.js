@@ -4,9 +4,9 @@ const handle = () => {
     const sideNav = document.querySelector('.nav-links');
     const line = document.querySelector('.line');
 
-    const events = document.querySelector('.events');
+    const teamsClick = document.querySelector('#teams-click');
 
-    events.addEventListener('click', () => {
+    teamsClick.addEventListener('click', () => {
         sideNav.classList.toggle('slide');
         burger.classList.toggle('active');
         line.classList.toggle('vanish');
