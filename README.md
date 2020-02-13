@@ -1,2 +1,2 @@
 # techleons-2020
-## [a link]cs.christuniversity.in/techleons
+## https://cs.christuniversity.in/techleons
